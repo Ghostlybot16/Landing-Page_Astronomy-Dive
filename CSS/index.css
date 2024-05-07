@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-direction: column;
+}
+
+/* First section */
+.section-1{
+    background-color:#121212;
+    width: 100%;
+    height: 900px;
+}
+
+/* contains Logo, Webpage title, Nav-bar items */
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #121212;
+    /* background-color: #0B0B0B; */
+    /* border-bottom: 1px solid rgba(250, 245, 255, 0.3); */
+}
+
+/* Webpage Main title */
+.title{
+    font-size: 32px;
+    color: #FAF5FF;
+    width: 500px;
+    flex-grow: 1;
+    flex-basis: auto;
+    flex-shrink: 0;
+}
+
+.nav-bar{
+    font-size: 32px;
+    color: #FFF5EA;
+    flex-grow: .2;
+}
+
+.nav-bar > ul{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 0px 16px; 
+}
+
+/* this targets the right side elements of the nav bar */
+li > a{
+    margin: 0px 32px;
+}
+
+/* image logo */
+.img-logo{
+    width: auto;
+    height: 90px;
+    border-radius: 50%;
+}
+
+body,
+.header-container,
+.nav-bar > ul{
+    display: flex;
+}
