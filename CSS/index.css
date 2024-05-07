@@ -65,6 +65,7 @@ li > a{
 
 body,
 .header-container,
-.nav-bar > ul{
+.nav-bar > ul,
+.main{
     display: flex;
 }
