@@ -1,4 +1,6 @@
-*{
+*,
+*::before,
+*::after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -28,43 +30,154 @@ body{
 /* Webpage Main title */
 .title{
     font-size: 32px;
-    color: #FAF5FF;
-    width: 500px;
-    flex-grow: 1;
-    flex-basis: auto;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: 1em;
     flex-shrink: 0;
+    letter-spacing: 1px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Webpage Main title link */
+.title > a{
+    /* Creme: White alternate */
+    color: rgba(250, 245, 255, 0.85);
+}
+
+/* webpage title glows white on hover */
+.title > a:hover,
+.title> a:focus{
+    color: #fff;
 }
 
 .nav-bar{
+    margin-right: auto;
+    margin-left: 14em;
     font-size: 32px;
-    color: #FFF5EA;
-    flex-grow: .2;
+    gap: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
 }
 
-.nav-bar > ul{
-    list-style-type: none;
-    
+/* nav-bar items glows white on hover */
+.nav-bar > a:hover{
+    color: #fff;
+}
+
+.nav-bar > a {
+    color: rgba(255, 245, 234, 0.85);
+    position: relative;
+}
+
+/* nav-bar items have a coloured underline on hover */
+.nav-bar > a::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(2, 180, 249, 0.85);
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    bottom: -12px;
+    transition: all 0.2s;
+
+    /* allows the user to not interact with the underline */
+    pointer-events: none;
+}
+
+.nav-bar > a:hover::after,
+.nav-bar > a:focus::after{
+    opacity: 1;
 }
 
 a{
     text-decoration: none;
-    margin: 0px 16px; 
+    
 }
 
-/* this targets the right side elements of the nav bar */
-li > a{
-    margin: 0px 32px;
-}
-
-/* image logo */
+/* Webpage logo */
 .img-logo{
     width: auto;
     height: 90px;
     border-radius: 50%;
 }
 
+.main{
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* flex-wrap: wrap; */
+}
+
+/* The container which contains the Welcome message, Submessage and Button */
+.left-side{
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 32px; */
+    width: 800px;
+}
+
+.welcome-msg{
+    width: 500px;
+    font-size: 64px;
+    font-weight: 550;
+    margin-right: 10px;  
+    margin-bottom: 32px;
+    margin-left: 20px;
+    color: rgba(250, 245, 255, 0.85);
+}
+
+.submsg{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    margin-left: 20px;
+}
+
+/* Section 1 button */
+.left-side > button{
+    max-width: 130px;
+    height: 30px;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0.3em 1em;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    background-color: rgba(2, 180, 249, 0.75);
+    color: rgba(20, 20, 20, 1);
+
+    
+    
+}
+
+.left-side > button:hover{
+    
+    /* this attribute allows the cursor to be a pointer on hover */
+    cursor: pointer;
+    background-color: rgba(2, 180, 249, 0.9) ;
+    color: black;
+    transform: all 130ms;
+}
+
+/* Image beside the welcome message */
+.sect-1-img{
+    width: 1000px;
+    height: auto;
+    margin: 32px 32px 0 0;
+    border-radius: 4%;
+
+}
+
 body,
 .header-container,
-.nav-bar > ul{
+.nav-bar,
+.main,
+.left-side{
     display: flex;
 }
