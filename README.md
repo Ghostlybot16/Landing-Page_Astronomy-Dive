@@ -1,5 +1,12 @@
 # **Landing-Page Project**
 
+## Image Credits:
+- Webpage Logo: Photo by <a href="https://unsplash.com/@hubblespacetelescope?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NASA Hubble Space Telescope</a> on <a href="https://unsplash.com/photos/a-very-large-blue-ring-in-the-middle-of-the-sky-O2vBAR4uPzA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+
+- Webpage Main Image:  Photo by <a href="https://unsplash.com/@grakozy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Greg Rakozy</a> on <a href="https://unsplash.com/photos/silhouette-photography-of-person-oMpAz-DN-9I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+
 ## Reflection 1: Pre-Project
 This project is going to be about creating a landing page strictly using HTML and CSS. The current plan is to use flex-box for the layout of the page. 
 

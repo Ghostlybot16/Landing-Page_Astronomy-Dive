@@ -8,6 +8,7 @@
 
 body{
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* First section */
@@ -23,8 +24,6 @@ body{
     align-items: center;
     padding: 10px 0px;
     background-color: #121212;
-    /* background-color: #0B0B0B; */
-    /* border-bottom: 1px solid rgba(250, 245, 255, 0.3); */
 }
 
 /* Webpage Main title */
@@ -35,9 +34,10 @@ body{
     margin-left: 1em;
     flex-shrink: 0;
     letter-spacing: 1px;
+}
 
-    font-family: Arial, Helvetica, sans-serif;
-
+a{
+    text-decoration: none;
 }
 
 /* Webpage Main title link */
@@ -57,7 +57,6 @@ body{
     margin-left: 14em;
     font-size: 32px;
     gap: 4em;
-    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
 
@@ -92,11 +91,6 @@ body{
     opacity: 1;
 }
 
-a{
-    text-decoration: none;
-    
-}
-
 /* Webpage logo */
 .img-logo{
     width: auto;
@@ -108,15 +102,12 @@ a{
     gap: 40px;
     justify-content: space-around;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    /* flex-wrap: wrap; */
 }
 
 /* The container which contains the Welcome message, Submessage and Button */
 .left-side{
     flex-direction: column;
     justify-content: center;
-    /* gap: 32px; */
     width: 800px;
 }
 
@@ -137,7 +128,7 @@ a{
     margin-left: 20px;
 }
 
-/* Section 1 button */
+/* Section 1 sign-up button */
 .left-side > button{
     max-width: 130px;
     height: 30px;
@@ -156,6 +147,7 @@ a{
     
 }
 
+/* Hover action for sign-up button */
 .left-side > button:hover{
     
     /* this attribute allows the cursor to be a pointer on hover */
