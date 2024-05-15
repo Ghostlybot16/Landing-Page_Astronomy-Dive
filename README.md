@@ -16,6 +16,10 @@
 
     - (Cat-Eye Nebula) Photo by <a href="https://unsplash.com/@hubblespacetelescope?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NASA Hubble Space Telescope</a> on <a href="https://unsplash.com/photos/a-blue-and-white-object-in-the-middle-of-a-black-background-vO9I5nAis0M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
     - (Butterfly Nebula) Photo by <a href="https://unsplash.com/@hubblespacetelescope?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NASA Hubble Space Telescope</a> on <a href="https://unsplash.com/photos/a-butterfly-shaped-object-in-the-middle-of-a-star-filled-sky-yT8e1h1NrjY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+- Quote Section Image:
+    - Photo by <a href="https://unsplash.com/@tanelah?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Taneli Lahtinen</a> on <a href="https://unsplash.com/photos/silhouette-of-person-3G8p__Lv8iM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
   
   
 ## Reflection 1: Pre-Project
