@@ -28,3 +28,18 @@ This project is going to be about creating a landing page strictly using HTML an
 This is one of my first solo projects where I create something from scratch. At the moment this is a big task and I will need to break it down into components and work on it individually. As well as get into a habit of making good commits. 
 
 I am hopeful and I have enough knowledge to get this project done properly and I wish to learn and be more comfortable with HTML and CSS. 
+
+## Reflection 2: Post-Project
+The project was completed in about a week. I thought it might take longer. The webpage works properly without any errors. 
+
+Learnings from this project: 
+- Use of semantic HTML
+- Use of Psuedo-classes (::before, ::after, :hover, :focus)
+- Better understanding of flex-box 
+- Better understanding of using websafe colours, fonts and opacity.
+- Better understanding of positioning elements in a webpage.
+- Increased comfortability of using the terminal 
+- Better understanding of how to use Issues and Pull Requests on GitHub to manage a project.
+- Increased comfortability to create a webpage from scratch
+
+Overall, I learned a lot that I thought I would from this project. I have gained new transferrable skills for HTML and CSS.
