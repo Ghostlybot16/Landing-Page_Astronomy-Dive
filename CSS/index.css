@@ -276,7 +276,7 @@ a{
     border-left-width: 12px;
 }
 
-/* Open quotes symbole before the quote */
+/* Open quotes symbol before the quote */
 .quote-mark::before{
     content: "\201c";
     display: block;
@@ -318,6 +318,73 @@ a{
     border-radius: 10%;
 }
 
+/* Section 4 Elements------------------------------------------- */
+.section-4{
+    width: 100%;
+    height: 400px;
+    /* background-color: #303030; */
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container that holds the sign up message and the sign up button */
+.last-container{
+    gap: 40em;
+    align-items: center;
+    background-color: #404040;
+    width: 85em;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+/* texts on the left side of the last container */
+.left-side-texts{
+    color: white;
+    text-align: left;
+    
+}
+
+/* Top text on the left side of the container */
+.left-side-texts > .top{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.final-button{
+    max-width: 130px;
+    height: 30px;
+    margin-left: 25px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(2, 180, 249, 0.75);
+    color: rgba(20, 20, 20, 1);
+}
+
+.final-button:hover{
+     /* this attribute allows the cursor to be a pointer on hover */
+    cursor: pointer;
+    background-color: rgba(2, 180, 249, 0.9) ;
+    color: black;
+    transform: all 130ms;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color:#121212;
+    color: white;
+    word-spacing: 3px;
+}
+
 body,
 .header-container,
 .nav-bar,
@@ -329,6 +396,9 @@ body,
 .info-sect-2,
 .info-sect-3,
 .info-sect-4,
-.section-3{
+.section-3,
+.section-4,
+.last-container,
+.footer{
     display: flex;
 }
