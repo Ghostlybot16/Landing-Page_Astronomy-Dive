@@ -261,7 +261,7 @@ a{
 .blockquote{
     max-width: 70em;
     max-height: 12em;
-    margin-left: 80px;
+    margin-left: -400px;
     margin-right: 80px;
     margin-top: 10px;
     margin-bottom: 90px;
